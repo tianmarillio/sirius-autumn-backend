@@ -4,6 +4,6 @@ import { nanoid } from 'nanoid';
 @Injectable()
 export class NanoidService {
   get() {
-    return nanoid()
+    return nanoid();
   }
 }

@@ -40,7 +40,6 @@ export class AuthGuard implements CanActivate {
       secret: process.env.JWT_SECRET_KEY,
     });
 
-
     if (!payload?.id) {
       throw new Error();
     }

@@ -38,8 +38,8 @@ export class AuthService {
     });
 
     return {
-      id: created.id
-    }
+      id: created.id,
+    };
   }
 
   async login(loginUserDto: LoginUserDto) {

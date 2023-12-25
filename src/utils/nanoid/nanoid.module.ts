@@ -3,6 +3,6 @@ import { NanoidService } from './nanoid.service';
 
 @Module({
   providers: [NanoidService],
-  exports: [NanoidService]
+  exports: [NanoidService],
 })
 export class NanoidModule {}

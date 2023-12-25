@@ -9,7 +9,14 @@ import { BcryptModule } from '../../utils/bcrypt/bcrypt.module';
 import { UserDataModule } from '../user-data/user-data.module';
 
 @Module({
-  imports: [ConfigModule.forRoot(), PrismaModule, AuthModule, NanoidModule, BcryptModule, UserDataModule],
+  imports: [
+    ConfigModule.forRoot(),
+    PrismaModule,
+    AuthModule,
+    NanoidModule,
+    BcryptModule,
+    UserDataModule,
+  ],
   controllers: [AppController],
   providers: [AppService],
 })

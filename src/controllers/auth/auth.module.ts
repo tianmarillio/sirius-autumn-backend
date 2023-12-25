@@ -16,7 +16,7 @@ import { AuthGuard } from './auth.guard';
         secret: process.env.JWT_SECRET_KEY,
         // TODO: check expire token
         // signOptions: { expiresIn: '5 seconds' },
-        signOptions: { expiresIn: '7d' },
+        signOptions: { expiresIn: '30d' },
         global: true,
       }),
     }),
